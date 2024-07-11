@@ -129,7 +129,7 @@ const App = () => {
       const txHash = transaction.hash;
       setExpLink(`https://amoy.polygonscan.com/tx/${txHash}`);
     } catch (error) {
-      console.error("Minting failed:", error);
+      alert(error.message);
     } finally {
       setIsMinting(false);
     }
