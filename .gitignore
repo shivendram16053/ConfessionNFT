@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Smart contract artifacts
+artifacts/
+cache/
+
+# Coverage
+coverage/
+
+# Miscellaneous
+.idea/
+.vscode/
+*.swp
